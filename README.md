@@ -9,6 +9,14 @@ pip install -r requirements.txt
 python limbus_translator.py
 ```
 
+## 打包 exe
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\build_exe.ps1
+```
+
+生成 `LimbusTranslator.exe`（无控制台窗口）。请保留旁边的 `glossary/` 目录以便编辑术语表。
+
 需要 Windows，并安装对应语言的「光学字符识别」可选功能。API Key 可在程序右键菜单设置，或写入环境变量 `DEEPSEEK_API_KEY`。
 
 ## 热键

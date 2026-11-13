@@ -41,5 +41,3 @@ python limbus_translator.py
 中文=English
 English=>中文别名
 ```
-
-源码由发布版 exe（PyInstaller / Python 3.12）还原；个别控制流经人工按字节码校对。

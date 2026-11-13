@@ -1,0 +1,5 @@
+requests
+Pillow
+mss
+keyboard
+winsdk

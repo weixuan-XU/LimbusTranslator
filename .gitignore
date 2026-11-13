@@ -1,0 +1,25 @@
+# Local runtime / secrets
+config.json
+cache.json
+glossary.txt
+glossary.local.txt
+selftest.txt
+
+# Large binary release (use GitHub Releases instead)
+LimbusTranslator.exe
+
+# Build / extract artifacts
+LimbusTranslator.exe_extracted/
+tools/
+__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+*.spec
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
